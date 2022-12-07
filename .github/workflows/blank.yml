@@ -12,7 +12,7 @@ jobs:
       - run: |
           progress() {
             pc=0;
-            while
+            while [ 0 ]
               do
                 echo -ne "$pc sec\033[0K\r"
                 sleep 1
