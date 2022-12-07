@@ -11,6 +11,6 @@ jobs:
     steps:
       - run: |
           date
-          watch echo "tick" &
-          sleep 20
+          (watch echo "tick") &
+          sleep 10
           
