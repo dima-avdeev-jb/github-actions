@@ -11,14 +11,11 @@ jobs:
     steps:
       - run: |
           progress() {
-            pc=0;
             while [ 0 ]
               do
-                echo "$pc sec"
-                sleep 1
-                ((pc++))
+                echo "tick"
               done
           }
           progress &
-          sleep 10
+          sleep 20
           
