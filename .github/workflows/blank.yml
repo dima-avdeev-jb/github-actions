@@ -14,7 +14,7 @@ jobs:
             pc=0;
             while [ 0 ]
               do
-                echo "$pc sec\033[0K\r"
+                echo "$pc sec"
                 sleep 1
                 ((pc++))
               done
